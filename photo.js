@@ -32,9 +32,15 @@ class Photo {
   console.log(photo2.toString());
 
   class MattedPhoto{
-    constructor(width,height)
+    super (width,height,color){
+        this.color = color;
+    }
   }
 
   class FramedPhoto{
+      super (width,height,material,style){
+          this.material = material;
+          this.style = style;
+      }
 
   }
